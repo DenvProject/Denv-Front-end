@@ -1,7 +1,7 @@
 
 .landingContainer{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   
   background-image: url('../../assets/images/handsUp.png');
   background-repeat: no-repeat;
@@ -9,6 +9,7 @@
   background-attachment: fixed;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -33,7 +34,7 @@
   height: 354px;
 }
 
-.landingContainer .main .logo p {
+.landingContainer .main .logo h1 {
   font-size: 64px;
   font-weight: bold;
   color: var(--bg-color);
@@ -65,4 +66,56 @@
 
 .landingContainer .main .arrowDown {
   margin-top: 50px;
+}
+
+.landingContainer .about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color:white;
+  width:100%;
+  height: 450px;
+  
+  padding: 15px 5px 0 5px;
+}
+
+.landingContainer .about .hiwCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  margin-top: 55px;
+}
+
+.landingContainer .about .hiwCards .hiwCard {
+  width: 275px;
+  /* height: 500px; */
+  background-color: #d1d1d1;
+  border-radius: 10%;
+
+  padding: 15px 10px 15px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  -webkit-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
+}
+.landingContainer .about .hiwCards .hiwCard .hiwContent{
+    width: 100%;
+    padding: 5px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.landingContainer .about .divTitle{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
 }
