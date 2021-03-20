@@ -3,6 +3,8 @@ import React from 'react';
 import './styles.css';
 import Logo from '../../assets/images/Logo.svg';
 import SetaParaBaixo from '../../assets/images/SetaParaBaixo.svg';
+import Graphics1 from '../../assets/images/graphics.jpg';
+import Graphics2 from '../../assets/images/graphics2.jpg';
 
 import { Link } from 'react-router-dom';
 
@@ -71,7 +73,33 @@ export default class LandingPage extends React.Component {
 
         </div>
         <div id="hiw" class="hiw">
+          <div class="divTitle">
+            <h2>Como Funciona</h2>
+          </div>
+          
+          <div class="hiwParts pt1">
+            <img src={Graphics1} alt="exemplos de gráficos"/>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu. Arcu dui vivamus arcu felis 
+              bibendum ut tristique. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. 
+              Purus ut faucibus pulvinar elementum integer enim neque. Rhoncus urna neque viverra justo nec 
+              ultrices. In fermentum et sollicitudin ac orci phasellus egestas. Morbi quis commodo odio aenean 
+              sed adipiscing diam donec. Nisi vitae suscipit tellus mauris.
+            </p>
+          </div>
 
+          <div class="hiwParts pt2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu. Arcu dui vivamus arcu felis 
+              bibendum ut tristique. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. 
+              Purus ut faucibus pulvinar elementum integer enim neque. Rhoncus urna neque viverra justo nec 
+              ultrices. In fermentum et sollicitudin ac orci phasellus egestas. Morbi quis commodo odio aenean 
+              sed adipiscing diam donec. Nisi vitae suscipit tellus mauris.
+            </p>
+            <img src={Graphics2} alt="exemplos de gráficos" />
+          </div>
         </div>
         <div id="faq" class="faq">
 

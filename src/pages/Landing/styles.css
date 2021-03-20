@@ -55,7 +55,7 @@
   color: var(--bg-color);
   cursor: pointer;
 
-  margin-top: 150px;
+  margin-top: 50px;
   transition: 0.3s all;
 }
 
@@ -114,8 +114,33 @@
     text-align: justify;
     word-wrap: break-word;
 }
-.landingContainer .about .divTitle{
+.landingContainer .divTitle{
     font-size: 40px;
     font-style: normal;
     font-weight: normal;
+}
+.landingContainer .hiw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 800px;
+}
+
+.landingContainer .hiw .hiwParts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landingContainer .hiw .hiwParts img {
+  width: 45%;
+  height: 100%;
+}
+
+.landingContainer .hiw .hiwParts p {
+  width: 50%;
+  height: 100%;
 }
