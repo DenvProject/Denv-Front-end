@@ -80,7 +80,7 @@
   padding: 15px 5px 0 5px;
 }
 
-.landingContainer .about .hiwCards {
+.landingContainer .about .aboutCards {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -91,7 +91,7 @@
   margin-top: 55px;
 }
 
-.landingContainer .about .hiwCards .hiwCard {
+.landingContainer .about .aboutCards .aboutCard {
   width: 275px;
   /* height: 500px; */
   background-color: #d1d1d1;
@@ -108,7 +108,16 @@
   -moz-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.75);
 }
-.landingContainer .about .hiwCards .hiwCard .hiwContent{
+
+.landingContainer .about .aboutCards .aboutCard .aboutQuestion {
+  font-size: 18px;
+}
+
+.landingContainer .about .aboutCards .aboutCard .aboutContent {
+  font-size: 16px;
+}
+
+.landingContainer .about .aboutCards .aboutCard .aboutContent{
     width: 100%;
     padding: 5px;
     text-align: justify;
@@ -126,21 +135,54 @@
   flex-direction: column;
 
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 .landingContainer .hiw .hiwParts {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+
+  font-size: 24px;
 }
 
 .landingContainer .hiw .hiwParts img {
-  width: 45%;
-  height: 100%;
+  width: 40%;
+  height: 90%;
 }
 
 .landingContainer .hiw .hiwParts p {
-  width: 50%;
-  height: 100%;
+  width: 45%;
+}
+
+.landingContainer .faq {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  
+  width:100%;
+  height: 450px;
+  
+  padding: 15px 5px 0 5px;
+}
+
+.landingContainer .faq .faqCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.landingContainer .faq .faqCards .faqCard {
+  width: 30%;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.landingContainer .faq .faqCards .faqCard .faqQuestion {
+  font-size: 18px;
+}
+
+.landingContainer .faq .faqCards .faqCard .faqContent {
+  font-size: 16px;
 }
