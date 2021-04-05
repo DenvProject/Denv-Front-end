@@ -31,40 +31,42 @@ export default class LandingPage extends React.Component {
         </div>
         <div id="about" class="about">
           <div class="divTitle">
-            <h2>Sobre</h2>
+            <h2>Sobre o DENV</h2>
           </div>
 
           <div class="aboutCards">
             <div className="aboutCard">
               <span className="aboutTitle">
-                <h3>Lorem Ipsum</h3>
+                <h3>O que é</h3>
               </span>
               <span className="aboutContent">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-                Pulvinar pellentesque habitant morbi tristique senectus et. Dolor sit amet consectetur adipiscing elit duis.
+                O DENV é uma plataforma que disponibiliza gráficos atualizados sobre doenças no Brasil.  
               </span>
             </div>
 
             <div className="aboutCard">
               <span className="aboutTitle">
-                <h3>Lorem Ipsum</h3>
+                <h3>Quem está por trás</h3>
               </span>
               <span className="aboutContent">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-                Pulvinar pellentesque habitant morbi tristique senectus et. Dolor sit amet consectetur adipiscing elit duis.
+                O DENV está sendo desenvolvido por um grupo de desenvolvedores que conta com 5 integrantes:
+                <ul>
+                  <li>Rafael Leão</li>
+                  <li>Abner Filipe</li>
+                  <li>Hugo Sobral</li>
+                  <li>Daniela Soares</li>
+                  <li>Samuel Nogueira</li>
+                </ul>
               </span>
             </div>
 
             <div className="aboutCard">
               <span className="aboutTitle">
-                <h3>Lorem Ipsum</h3>
+                <h3>Contexto acadêmico</h3>
               </span>
               <span className="aboutContent">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-                Pulvinar pellentesque habitant morbi tristique senectus et. Dolor sit amet consectetur adipiscing elit duis.
+                O DENV é um projeto desenvolvido durante o semestre 2020/2 da UnB pelo grupo lovelace da disciplina
+                Requisitos de Software.
               </span>
             </div>
           </div>
@@ -118,12 +120,10 @@ export default class LandingPage extends React.Component {
 
             <div className="faqCard">
               <span className="faqQuestion">
-                <h3>Lorem Ipsum</h3>
+                <h3>Como exporto o gráfico gerado para usar posteriormente?</h3>
               </span>
               <span className="faqContent">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui.
-                Pulvinar pellentesque habitant morbi tristique senectus et. Dolor sit amet consectetur adipiscing elit duis.
+                Após ter o gráfico gerado, basta clicar no botão "exportar" que o gráfico será baixado.  
               </span>
             </div>
           </div>

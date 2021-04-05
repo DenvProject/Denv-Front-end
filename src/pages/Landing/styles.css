@@ -113,15 +113,15 @@
   font-size: 18px;
 }
 
-.landingContainer .about .aboutCards .aboutCard .aboutContent {
+.landingContainer .about .aboutCards .aboutCard .aboutContent{
+  width: 100%;
+  padding: 5px;
+  text-align: justify;
+  word-wrap: break-word;
   font-size: 16px;
 }
-
-.landingContainer .about .aboutCards .aboutCard .aboutContent{
-    width: 100%;
-    padding: 5px;
-    text-align: justify;
-    word-wrap: break-word;
+.landingContainer .about .aboutCards .aboutCard .aboutContent ul li {
+  margin-left: 15px;
 }
 .landingContainer .divTitle{
     font-size: 40px;
