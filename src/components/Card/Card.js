@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { useHistory } from 'react-router-dom';
+
 import buttonIcon from '../../assets/images/buttonIcon.svg';
 
 import './Card.css';
 
 export default function Card({title}) {
+  const history = useHistory();
+
   return (
     <div className="cardWrapper">
       <div>
@@ -12,7 +16,9 @@ export default function Card({title}) {
       </div>
 
       <div>
-        <button>
+        <button
+          onClick={() => history.push(`/disease/${title}`)}
+        >
           <img src={buttonIcon} alt="circle button" />
         </button>
       </div>
