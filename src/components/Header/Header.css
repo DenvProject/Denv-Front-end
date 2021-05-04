@@ -1,0 +1,25 @@
+.headerContainer {
+  width: 100%;
+  background-color: #005A93;
+  height: 90px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  top: 0;
+  padding-left: 10px;
+  position: fixed;
+}
+
+.headerContainer button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.logoImg {
+  width: 70px;
+  height: 70px;
+}

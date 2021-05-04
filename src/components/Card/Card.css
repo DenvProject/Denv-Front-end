@@ -1,0 +1,38 @@
+.cardWrapper{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+
+    width: 85%;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #005A93;
+
+    margin: 20px 0 20px 40px;
+}
+
+.cardWrapper div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cardWrapper div h1 {
+    padding-left: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.cardWrapper button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.cardWrapper button:hover {
+    opacity: 0.7;
+    background-color: #eee;
+}

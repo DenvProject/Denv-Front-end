@@ -1,0 +1,17 @@
+.diseasesFound {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% - 320px);
+
+  margin: 20px 0 20px 40px;
+}
+
+.diseasesFound h1 {
+  font-weight: 400;
+}
+
+.diseasesFound span {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.47);
+}

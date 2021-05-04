@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Hanseniase",
+        "type": "disease",
+        "numberOfOcurrences": "50",
+        "data": {
+            "ocurrencesPerState": {
+                "Acre": 5,
+                "Alagoas": 2,
+                "Amapá": 1,
+                "Amazonas": 0,
+                "Bahia": 4,
+                "Ceará": 10,
+                "Distrito_Federal": 8,
+                "Espírito_Santo": 3,
+                "Goiás": 2,
+                "Maranhão": 2,
+                "Mato_Grosso": 5,
+                "Mato_Grosso_do_Sul": 2,
+                "Minas_Gerais": 1,
+                "Pará": 1,
+                "Paraíba": 2,
+                "Paraná": 5,
+                "Pernambuco": 1,
+                "Piauí": 2,
+                "Rio_de_Janeiro": 0,
+                "Rio_Grande_do_Norte": 2,
+                "Rio_Grande_do_Sul": 0,
+                "Rondônia": 1,
+                "Roraima": 2,
+                "Santa_Catarina": 0,
+                "São_Paulo": 1,
+                "Sergipe": 2,
+                "Tocantins": 0
+            }
+        }
+    },
+    {
+        "name": "Leishmaniose",
+        "type": "disease",
+        "numberOfOcurrences": "100",
+        "data": {
+            "ocurrencesPerState": {
+                "Acre": 5,
+                "Alagoas": 2,
+                "Amapá": 1,
+                "Amazonas": 0,
+                "Bahia": 4,
+                "Ceará": 10,
+                "Distrito_Federal": 8,
+                "Espírito_Santo": 3,
+                "Goiás": 2,
+                "Maranhão": 2,
+                "Mato_Grosso": 5,
+                "Mato_Grosso_do_Sul": 2,
+                "Minas_Gerais": 1,
+                "Pará": 1,
+                "Paraíba": 2,
+                "Paraná": 5,
+                "Pernambuco": 1,
+                "Piauí": 2,
+                "Rio_de_Janeiro": 0,
+                "Rio_Grande_do_Norte": 2,
+                "Rio_Grande_do_Sul": 0,
+                "Rondônia": 1,
+                "Roraima": 2,
+                "Santa_Catarina": 0,
+                "São_Paulo": 1,
+                "Sergipe": 2,
+                "Tocantins": 0
+            }
+        }
+    },
+    {
+        "name": "Gastos Públicos com Internações",
+        "type": "others",
+        "data": {
+            "costPerState": {
+                "Acre": 500000,
+                "Alagoas": 2000000,
+                "Amapá": 1000000,
+                "Amazonas": 250000,
+                "Bahia": 400000,
+                "Ceará": 1000000,
+                "Distrito_Federal": 8000000,
+                "Espírito_Santo": 3000000,
+                "Goiás": 2000000,
+                "Maranhão": 2000000,
+                "Mato_Grosso": 500000,
+                "Mato_Grosso_do_Sul": 2000000,
+                "Minas_Gerais": 1000000,
+                "Pará": 1000000,
+                "Paraíba": 2000000,
+                "Paraná": 5000000,
+                "Pernambuco": 1000000,
+                "Piauí": 2000000,
+                "Rio_de_Janeiro": 5000000,
+                "Rio_Grande_do_Norte": 200000,
+                "Rio_Grande_do_Sul": 700000,
+                "Rondônia": 1000000,
+                "Roraima": 290000,
+                "Santa_Catarina": 1200000,
+                "São_Paulo": 1000000,
+                "Sergipe": 2000000,
+                "Tocantins": 500000
+            }
+        }
+    }
+]

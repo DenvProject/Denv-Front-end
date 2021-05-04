@@ -1,0 +1,52 @@
+.sideBarContainer {
+  position: fixed;
+  height: calc(100vh - 90px);
+  width: 320px;
+  z-index: 5;
+  top: 90px;
+  background-color: #005A93;
+  border-top: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 25px;
+  background-color: #ddd;
+
+  margin-top: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.searchBar input {
+  width: 75%;
+  height: 25px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  padding: 0 5px 0 5px;
+  outline: none;
+}
+
+.searchBar button {
+  width: 25%;
+  height: 25px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.searchBar button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  opacity: 0.8;
+}
