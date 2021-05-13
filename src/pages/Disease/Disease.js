@@ -1,16 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
+
+import api from '../../services/api';
 
 import LineGraph from '../../components/LineGraph/LineGraph';
 import DefaultLayout from '../../components/DefaultLayout/DefaultLayout';
 
-import data from '../../data/tuberculose.json';
+// import data from '../../data/tuberculose.json';
 
 import './styles.css';
 
 export default function Disease() {
   const [states, setStates] = useState([]);
+  const [data, setData] = useState({});
   const history = useHistory();
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  async function fetchData() {
+    await api.get('/casos_tuberculose')
+        .then(function (response) {
+            setData(response.data);
+        });
+    }
+
+
 
   function handleAddState(ev, state) {
     ev.preventDefault();
@@ -24,10 +40,13 @@ export default function Disease() {
 
   return(
     <>
+        {console.log(data)}
       <DefaultLayout page='details'>
         <div className="wrapper">
           <div className="graph">
-            <LineGraph dataset={states} obj={data} />
+              {data.Total &&
+                <LineGraph dataset={states} obj={data} />
+              }
           </div>
           <div className="map">
             <svg version="1.1" id="svg-map" x="0px" y="0px" width="450px" height="460px" viewBox="0 0 450 460" enableBackground="new 0 0 450 460">

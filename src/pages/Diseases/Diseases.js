@@ -18,8 +18,8 @@ export default function Diseases() {
             x doenças encontradas
           </span>
         </div>
-        <Card title="Tuberculose" />
-        <Card title="Gastos Públicos" />
+        <Card title="Tuberculose"/>
+        <Card title="Gastos Públicos"/>
         {/* {
           data.map((item, index) => (
             <Card key={index} title={item.name} />

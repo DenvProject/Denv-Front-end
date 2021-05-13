@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import './SideBar.css';
 
 export default function SideBar({ page }) {
   const [input, setInput] = useState("");
+  const history = useHistory();
 
   return(
     <div className="sideBarContainer">
@@ -17,7 +19,7 @@ export default function SideBar({ page }) {
           
         </div>
       }
-      
+      <button onClick={() => history.goBack()} >Voltar</button>
     </div>
   );
 }
