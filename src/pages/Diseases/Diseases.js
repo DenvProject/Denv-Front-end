@@ -11,7 +11,7 @@ export default function Diseases() {
 
   return(
     <>
-      <DefaultLayout>
+      <DefaultLayout page='list' >
         <div className="diseasesFound">
           <h1>Doenças encontradas</h1>
           <span>

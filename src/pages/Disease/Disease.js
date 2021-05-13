@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 import LineGraph from '../../components/LineGraph/LineGraph';
 import DefaultLayout from '../../components/DefaultLayout/DefaultLayout';
 
-import data from '../../data/diseases.json';
+import data from '../../data/tuberculose.json';
 
 import './styles.css';
 
@@ -16,12 +16,15 @@ export default function Disease() {
     ev.preventDefault();
     if(!states.includes(state)){
       setStates([...states, state]);
+    } else {
+      const newStates = states.filter(item => item !== state);
+      setStates(newStates);
     }
   }
 
   return(
     <>
-      <DefaultLayout>
+      <DefaultLayout page='details'>
         <div className="wrapper">
           <div className="graph">
             <LineGraph dataset={states} obj={data} />
@@ -227,7 +230,7 @@ export default function Disease() {
                     c0.932-2.847,1.411-9.912,0.453-11.856c-0.165-0.331-3.52-7.232-2.547-8.108C186.306,297.688,182.334,299.415,183.198,294.536z"></path>
                         <text transform="matrix(1 0 0 1 213.2939 306.7236)" fill="#FFFFFF">MS</text>
                     </a>
-                    <a href="#" onClick={(ev) => handleAddState(ev, 'Goiânia')} target="_top" className="estado">
+                    <a href="#" onClick={(ev) => handleAddState(ev, 'Goiás')} target="_top" className="estado">
                         <path stroke="#FFFFFF" strokeWidth="1.0404" strokeLinecap="round" strokeLinejoin="round"
                             d="M237.768,270.519
                     c0.628-2.904,1.835-7.396,4.709-8.766c1.015-1.644,1.754-5.147,2.275-5.586c2.408-2.247,3.889-3.783,6.63-4.656
