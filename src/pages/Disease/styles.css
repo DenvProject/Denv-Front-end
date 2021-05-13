@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%;
+}
+
+.wrapper .graph {
+    width: 90%;
+    margin: 20px;
+}
+
+a.estado {
+    fill: #ddd;
+}
+
+a.estado:hover {
+    fill: orange;
+}
