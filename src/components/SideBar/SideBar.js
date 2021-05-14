@@ -9,17 +9,17 @@ export default function SideBar({ page }) {
 
   return(
     <div className="sideBarContainer">
-      {page === 'list' ? 
+      {page === 'list' ?
         <div className="searchBar">
-          <input type="text"placeholder="Pesquisar" value={input} onChange={(e) => setInput(e.target.value)} />
-          <button>Filtrar</button>
+          {/* <input type="text"placeholder="Pesquisar" value={input} onChange={(e) => setInput(e.target.value)} />
+          <button>Filtrar</button> */}
         </div>
         :
         <div className="filterBar">
           
         </div>
       }
-      <button onClick={() => history.goBack()} >Voltar</button>
+      <button className="goBackBtn" onClick={() => history.goBack()} >Voltar</button>
     </div>
   );
 }

@@ -14,3 +14,7 @@ a.estado {
 a.estado:hover {
     fill: orange;
 }
+
+a.estado:focus {
+    fill: orange;
+}

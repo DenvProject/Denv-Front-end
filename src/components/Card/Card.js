@@ -6,7 +6,7 @@ import buttonIcon from '../../assets/images/buttonIcon.svg';
 
 import './Card.css';
 
-export default function Card({title}) {
+export default function Card({title, req}) {
   const history = useHistory();
 
   return (
@@ -17,7 +17,12 @@ export default function Card({title}) {
 
       <div>
         <button
-          onClick={() => history.push(`/disease/${title}`)}
+          onClick={() => history.push({
+            pathname: `/disease/${title}`,
+            state: {
+              url: req,
+            }
+          })}
         >
           <img src={buttonIcon} alt="circle button" />
         </button>

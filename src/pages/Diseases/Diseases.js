@@ -1,12 +1,11 @@
 import React from 'react';
 import DefaultLayout from '../../components/DefaultLayout/DefaultLayout';
-
 // import data from '../../data/diseases.json'
 import Card from '../../components/Card/Card';
 
 import './styles.css';
 
-export default function Diseases() {
+export function Diseases() {
   // const diseases = data.filter(data => data.type === 'disease')
 
   return(
@@ -15,16 +14,13 @@ export default function Diseases() {
         <div className="diseasesFound">
           <h1>Doenças encontradas</h1>
           <span>
-            x doenças encontradas
+            2 Tipos de informações
           </span>
         </div>
-        <Card title="Tuberculose"/>
-        <Card title="Gastos Públicos"/>
-        {/* {
-          data.map((item, index) => (
-            <Card key={index} title={item.name} />
-          ))
-        } */}
+        <div>
+        <Card title="Tuberculose" req="casos_tuberculose"/>
+        </div>
+        <Card title="Gastos Públicos" req="gastos_publicos"/>
       </DefaultLayout>
     </>
   );
